@@ -1,1 +1,1 @@
-task :ci => [:spec]
+task :ci => [:'db:reseed', :spec]
